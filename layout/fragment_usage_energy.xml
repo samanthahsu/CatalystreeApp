@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linechart_energy"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/b_money">
+    </com.github.mikephil.charting.charts.LineChart>
+
+    <Button
+        android:id="@+id/b_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost Graph"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/b_home"
+        android:layout_toStartOf="@+id/b_home" />
+
+    <Button
+        android:id="@+id/b_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/b_tips"
+        android:layout_toStartOf="@+id/b_tips" />
+
+    <Button
+        android:id="@+id/b_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tips"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b_pie"
+        android:layout_centerHorizontal="true"
+        android:text="@string/emptystring" />
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/fragment_car"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textview_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:layout_marginTop="20dp"
+        android:id="@+id/spinner_car_type"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:hint="@string/distance_km"
+        android:id="@+id/editTextcarDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button_car_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

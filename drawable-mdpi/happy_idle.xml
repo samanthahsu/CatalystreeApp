@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/happy_idle0000" android:duration="83" />
+    <item android:drawable="@drawable/happy_idle0001" android:duration="83" />
+    <item android:drawable="@drawable/happy_idle0003" android:duration="250" />
+    <item android:drawable="@drawable/happy_idle0006" android:duration="166" />
+    <item android:drawable="@drawable/happy_idle0008" android:duration="83" />
+    <item android:drawable="@drawable/happy_idle0009" android:duration="166" />
+</animation-list>

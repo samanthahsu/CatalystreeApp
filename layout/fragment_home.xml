@@ -10,15 +10,18 @@
         android:layout_width="wrap_content"
         android:layout_height="320dp"
         android:contentDescription="@string/panda_animation"
-        android:background="@color/GMred"/>
+        android:baselineAlignBottom="true"/>
 
-<!--
-    <Button
-        android:id="@+id/yourbuttonid"
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DATABASE MANAGER"
-        android:layout_gravity="center"/>
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Tip: Heat yourself, not the house - learn to love socks and sweaters and blankets, turn down the thermostat, and watch your heating bill drop
+" />
 
--->
 </LinearLayout>
